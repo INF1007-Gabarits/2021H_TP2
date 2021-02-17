@@ -48,9 +48,9 @@ Dans cet exercice, vous devez écrire un programme qui demande à l'usager de sa
 
 Dans cet exercice, vous devez écrire un programme qui combine deux dictionnaires en additionnant des valeurs des clés communes.
 ```python
-d1 = {'a': 100, 'b': 200, 'c':300}
-d2 = {'a': 300, 'b': 200, 'd':400}
-d3 = {'a': 400, 'b': 400, 'd': 400, 'c': 300}
+dic_1 = {'a': 100, 'b': 200, 'c':300}
+dic_2 = {'a': 300, 'b': 200, 'd':400}
+dic_3 = {'a': 400, 'b': 400, 'd': 400, 'c': 300}
 ```
 ## Exercice 4:
 
