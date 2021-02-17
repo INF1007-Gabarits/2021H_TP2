@@ -16,6 +16,7 @@ Pour ce TP, vous **ne pouvez pas importer d'autres librairies que celle qui sont
 ## Exercice 1:
 
 Dans cet exercice, vous devez écrire un programme qui demande à l’usager de saisir une liste **L** et un nombre entier **Target**. Le programme calcul la somme de deux entiers dans la liste **L** et retourne les indices des deux entiers si leur somme est égale a **Target** et retourne None sinon.
+
 **<ins>Exemple 1:</ins>**
 ```python
 L = [3,2,4]
@@ -81,6 +82,24 @@ La différence est nulle, on prend le dernier résultat non nul qui est: **12**.
 ## Exercice 5:
 
 Dans cet exercice, vous devez écrire un programme qui demande à l'utilisateur de saisir deux matrices **A** et **B** et calcul le produit des deux matrices. Si le nombre de colonnes de la matrice A est diffèrent du nombre de lignes de la matrice B, vous devez retourne None.
+
+**<ins>Exemple 1:</ins>**
+```python
+A = [[2, 3, 6], [5, -1, 12]]
+B = [[1, 0, 4, 7], [2, -3, 6, 2], [5, 8, 9, 6]]
+C = multiplication_matrice(A,B) 
+  = [[38, 39, 80, 56], [63, 99, 122, 105]]
+```
+**<ins>Exemple 2:</ins>**
+```python
+A = [[2, 3, 6], [5, -1, 12]]
+B = [[1, 0, 4, 7], [2, -3, 6, 2], [5, 8, 9, 6]]
+C = [[38, 39, 80, 56], [63, 99, 122, 105]]
+D = multiplication_matrice(C,A) 
+  = None
+E = multiplication_matrice(B,C) 
+  = None
+```
 
 ## Exercice 6:
 
