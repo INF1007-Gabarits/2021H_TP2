@@ -80,7 +80,7 @@ La différence est nulle, on prend le dernier résultat non nul qui est: **12**.
 
 ## Exercice 5:
 
-Dans cet exercice, vous devez écrire un programme qui demande à l'utilisateur de saisir deux matrices **A** et **B** et calcul le produit des deux matrices. 
+Dans cet exercice, vous devez écrire un programme qui demande à l'utilisateur de saisir deux matrices **A** et **B** et calcul le produit des deux matrices. Si le nombre de colonnes de la matrice A est diffèrent du nombre de lignes de la matrice B, vous devez retourne None.
 
 ## Exercice 6:
 
